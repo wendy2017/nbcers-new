@@ -1,0 +1,249 @@
+.cha, .dian, .other, .qi {
+    margin-top: 10px;
+    text-align: left;
+}
+.products h3 {
+    padding: 17px 0 0 10px;
+    text-align: left;
+    /* font-size: 16px; */
+}
+.cha-col {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    width: 33.3%;
+    height: 100%;
+}
+.cha-col, .cha-row {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cha-col .box {
+    height: 100%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background: #fff;
+}
+
+.cha-col .bg {
+    width: 100%;
+    background-size: 100% auto;
+    padding-top: 100%;
+    height: 0;
+    display: block;
+    background-image: url('http://productcha.nbceres.com/xianggai.jpg');
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.cha-col p {
+    text-align: center;
+    height: 30px;
+    /* height: 44px; */
+    white-space: nowrap;
+    font-size: 16px;
+}
+.cha-col .bg-fadongji{
+    /* http://productqi.nbceres.com/fdjbj.jpg */
+    background-image: url('http://productqi.nbceres.com/fdjbj.jpg');
+}
+.cha-col .bg-fadongjizm{
+    background-image: url('http://productqi.nbceres.com/fdjbj-zm.jpg');
+}
+.cha-col .bg-fadongjifm{
+    background-image: url('http://productqi.nbceres.com/fdjbj-fm.jpg');
+}
+  
+.cha-col .bg-dizuo{
+    background-image: url('http://productqi.nbceres.com/dizuo.jpg');
+}
+.cha-col .bg-fdjkt{
+    background-image: url('http://productqi.nbceres.com/fdjkt.jpg');
+}
+.cha-col .bg-jylqqsk{
+    background-image: url('http://productqi.nbceres.com/jylqqsk.jpg');
+}
+.cha-col .bg-jylqqgb1{
+    background-image: url('http://productqi.nbceres.com/jylqqgb1.jpg');
+}
+.cha-col .bg-jylqqgb2{
+    background-image: url('http://productqi.nbceres.com/jylqqgb2.jpg');
+}
+.cha-col .bg-jylqqgb3{
+    background-image: url('http://productqi.nbceres.com/jylqqgb3.jpg');
+}
+.cha-col .bg-jylqqz1{
+    background-image: url('http://productqi.nbceres.com/jylqqz1.jpg');
+}
+.cha-col .bg-jylqqz2{
+    background-image: url('http://productqi.nbceres.com/jylqqz2.jpg');
+}
+
+.cha-col .bg-jylqqz3{
+    background-image: url('http://productqi.nbceres.com/jylqqz3.jpg');
+}
+.cha-col .bg-ylqqz3{
+    background-image: url('http://productqi.nbceres.com/jylqqz3.jpg');
+}
+.cha-col .bg-lvqinggb{
+    background-image: url('http://productqi.nbceres.com/jylqqgb.jpg');
+}
+.cha-col .bg-lvqingz{
+    background-image: url('http://productqi.nbceres.com/jylqqz.jpg');
+}
+.cha-col .bg-yundong{
+    background-image: url('http://productqi.nbceres.com/ydd25kt.jpg');
+}
+ 
+
+.cha-col .bg-xg {
+    /* http://productcha.nbceres.com/xiangti.jpg */
+    background-image: url('http://productcha.nbceres.com/xianggai.jpg');
+}
+
+.cha-col .bg-csqxt {
+    background-image: url('http://productcha.nbceres.com/xiangti.jpg');
+}
+.cha-col .bg-clbsx {
+    background-image: url('http://productcha.nbceres.com/chilunbiansuxiang.jpg');
+}
+.cha-col .bg-jk1 {
+    background-image: url('http://productcha.nbceres.com/jike1.jpg');
+}
+
+.cha-col .bg-jk2 {
+    background-image: url('http://productcha.nbceres.com/jike2.jpg');
+}
+
+.cha-col .bg-jk3 {
+    background-image: url('http://productcha.nbceres.com/jike3.jpg');
+}
+
+.cha-col .bg-wo {
+    background-image: url('http://productcha.nbceres.com/woshichasuqixiangti.jpg');
+}
+
+.cha-col .bg-jiqiren {
+    background-image: url('http://productcha.nbceres.com/jiqirenchasuqixiangti.jpg');
+}
+.cha-col .bg-lscsqxtxg {
+    background-image: url('http://productcha.nbceres.com/lishichashuqixiangtixianggai.jpg');
+}
+.cha-col .bg-lsxt1 {
+    background-image: url('http://productcha.nbceres.com/lishichasuqixiangti.jpg');
+}
+.cha-col .bg-lsxt2 {
+    background-image: url('http://productcha.nbceres.com/lishichasuqixiangti2.jpg');
+}
+.cha-col .bg-lsgai {
+    background-image: url('http://productcha.nbceres.com/lishichasuqixianggai2.jpg');
+
+}
+
+.cha-col .bg-dijigai1 {
+    background-image: url('http://productdian.nbceres.com/dijigai1.jpg');
+    
+}
+.cha-col .bg-dijigai2 {
+    background-image: url('http://productdian.nbceres.com/dijigai2.jpg');
+
+}
+.cha-col .bg-dijigai3 {
+    background-image: url('http://productdian.nbceres.com/dijigai3.jpg');
+
+}
+.cha-col .bg-dijigai4 {
+    background-image: url('http://productdian.nbceres.com/dijigai4.jpg');
+
+}
+.cha-col .bg-dijigai5 {
+    background-image: url('http://productdian.nbceres.com/dijigai5.jpg');
+
+}
+.cha-col .bg-dijigai6 {
+    background-image: url('http://productdian.nbceres.com/dijigai6.jpg');
+
+}
+.cha-col .bg-dijike {
+    background-image: url('http://productdian.nbceres.com/dijiwaike.jpg');
+
+}
+
+
+.cha-col .bg-chilunxiang{
+    /* http://productother.nbceres.com/chilunxiang.jpg */
+    background-image: url('http://productother.nbceres.com/chilunxiang.jpg');
+}
+.cha-col .bg-chilunxiangyunlin{
+    background-image: url('http://productother.nbceres.com/chilunxiang-farm.jpg');
+}
+.cha-col .bg-diantitaban{
+    background-image: url('http://productother.nbceres.com/diantitaban.jpg');
+}
+.cha-col .bg-fzjzcz{
+    background-image: url('http://productother.nbceres.com/fangzhijizhichengzuo.jpg');
+}
+.cha-col .bg-lh{
+    background-image: url('http://productother.nbceres.com/lunhuo.jpg');
+}
+.cha-col .bg-pdl{
+    background-image: url('http://productother.nbceres.com/pidailun.jpg');
+}
+.cha-col .bg-qghs{
+    background-image: url('http://productother.nbceres.com/qiganghuosai.jpg');
+}
+.cha-col .bg-srp{
+    background-image: url('http://productother.nbceres.com/sanrepian.jpg');
+}
+.cha-col .bg-srz{
+    background-image: url('http://productother.nbceres.com/sanrezhijia.jpg');
+}
+.cha-col .bg-jm1{
+    background-image: url('http://productother.nbceres.com/jimi1.jpg');
+}
+.cha-col .bg-jm2{
+    background-image: url('http://productother.nbceres.com/jimi2.jpg');
+}
+.cha-col .bg-jm3{
+    background-image: url('http://productother.nbceres.com/jimi3.jpg');
+}
+.cha-col .bg-jm4{
+    background-image: url('http://productother.nbceres.com/jimi4.jpg');
+}
+.cha-col .bg-jm5{
+    background-image: url('http://productother.nbceres.com/jimi5.jpg');
+}
+.cha-col .bg-jm6{
+    background-image: url('http://productother.nbceres.com/jimi6.jpg');
+}
+.cha-col .bg-sb{
+    background-image: url('http://productother.nbceres.com/shoubingkafeiji.jpg');
+}
+.cha-col .bg-zcz{
+    background-image: url('http://productother.nbceres.com/zhichengzuo.jpg');
+}
+.cha-col .bg-gxyqzj{
+    background-image: url('http://productother.nbceres.com/guangxueyizhizuo.jpg');
+}
+
+@media screen and (max-width: 800px){
+    .cha-col {
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+    }
+    .cha-col p {
+        text-align: center;
+        height: 30px;
+        /* height: 44px; */
+        white-space: nowrap;
+        font-size: 14px;
+    }
+}
+
+

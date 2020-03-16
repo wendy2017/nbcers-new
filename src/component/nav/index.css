@@ -1,0 +1,102 @@
+.nav {
+    /* background: #ffffff;
+    color: #000000; */
+    margin: 12px;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+    background: #fff;
+}
+
+/* .nav li {
+    display: inline-block;
+   
+} */
+.nav_bar {
+    position: relative;
+    height: 60px;
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_bar .title {
+    position: absolute;
+    padding: 0 !important;
+    left: 0px;
+    top: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+}
+.nav_bar .btn-lang {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    padding: 3px 5px;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #000000;
+}
+
+.nav_bar a {
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.subMenu a {
+    display: block!important;
+    padding: 0;
+}
+.subMenu a li {
+    color: #000000;
+    padding:  10px;
+}
+
+.nav li {
+    /* margin: 15px 0; */
+    padding: 6px 0;
+    /* color: #fff; */
+    color: #000000;
+    list-style: none;
+}
+.nav li ul {
+    display: none;
+}
+.subMenu {
+    z-index: 1000;
+    position: absolute;
+    padding: 0;
+    border: 1px solid #eee;
+    background: #eee;
+    cursor: pointer;
+    text-align: left;
+    color: #000000;
+}
+.nav_bar li:hover .subMenu{
+    display: block;
+    color: #fff;
+}
+
+.subMenu a :hover{
+    background: #666666;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px){
+    .nav_bar{
+        width: 100%;
+    }
+    .nav_bar .title {
+        position: absolute;
+        left: 50px;
+        top: 15px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 22px;
+        font-family: Microsoft YaHei;
+    }
+}
+
+

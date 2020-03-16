@@ -1,0 +1,66 @@
+.about {
+    /* padding: 15px 40px; */
+    background: #fff;
+    margin-bottom: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    /* height: calc(100vh - 64px); */
+}
+
+.about h3 {
+    padding: 0 0 14px;
+    text-align: left;
+}
+.about .left .bg-about {
+    height: 200px;
+    /* background-image: url('http://ptprm6anf.bkt.clouddn.com/bg-about.png'); */
+    background-image: url('http://about.nbceres.com/bg-about.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.about .right {
+    margin-top: 40px;
+}
+.right p {
+    text-align: left;
+    line-height: 2;
+}
+@media screen and (max-width: 800px){
+    .about {
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .about .right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .right p {
+        font-size: 14px;
+        text-align: left;
+        line-height: 2;
+    }
+    .about .con {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .left {
+        margin-bottom: 10px;
+        /* padding-right: 15px; */
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .about .left .bg-about {
+        height: 100px;
+        background-image: url('http://about.nbceres.com/bg-about.png');
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+}

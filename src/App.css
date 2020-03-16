@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+}
+
+.App::after {
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/* .nav_bar {
+    height: 60px;
+    background: #303848;
+}
+.nav_bar .title {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #fff;
+    font-family: Microsoft YaHei;
+}
+.nav {
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+} */
+
+.conent {
+    min-height: 100vh;
+    /* overflow: scroll; */
+    background: #ffffff;
+      /* min-height: 100vh; */
+      /* background: #fafafa; */ 
+      /* width: 1200px;
+      margin: 0 auto; */
+}
+
+
+@media screen and (max-width: 800px){
+    .conent {
+        min-height: 100vh;
+        background: #fafafa;
+        /* width: 414px; */
+        width: 100%;
+        margin: 0 auto;
+    }
+}

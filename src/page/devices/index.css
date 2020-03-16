@@ -1,0 +1,69 @@
+/* jiagong
+shukong */
+
+.jia, .shu, .ya, .zhuan {
+    margin-top: 10px;
+    text-align: left;
+}
+.jia{
+    display: flex;
+}
+.cha-col .bg-jiagong {
+    background-image: url('http://devicesjia.nbceres.com/jiagong.jpg');
+}
+.cha-col .bg-shukong {
+    background-image: url('http://devicesjia.nbceres.com/wanbao.png');
+}
+.cha-col .bg-zhuan2{
+    background-image: url('http://deviceszuan.nbceres.com/hl380.jpg');
+
+}
+.cha-col .bg-zhuan3{
+    background-image: url('http://deviceszuan.nbceres.com/hl500.jpg');
+
+}
+.cha-col .bg-zhuan1{
+    background-image: url('http://deviceszuan.nbceres.com/hl1000.png');
+
+}
+.cha-col .bg-ya1 {
+    background-image: url('http://devicesya.nbceres.com/yzm180.jpg');
+}
+.cha-col .bg-ya2 {
+    background-image: url('http://devicesya.nbceres.com/yzm300.png');
+}
+.cha-col .bg-ya3 {
+    background-image: url('http://devicesya.nbceres.com/yzm500.jpg');
+}
+.cha-col .bg-ya4 {
+    background-image: url('http://devicesya.nbceres.com/yzm800.png');
+}
+
+.devices h3 {
+    padding: 17px 0 0 10px;
+    text-align: left;
+    /* font-size: 16px; */
+}
+.-color-black {
+    cursor: pointer;
+    color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+.-color-light {
+    cursor: not-allowed;
+    color: rgba(0,0,0,.4);
+}
+.devices .cha-col p {
+    text-align: center;
+    white-space: pre-wrap;
+}
+.mobile-zhuan-row{
+    display: inline;
+}
+@media screen and (max-width: 800px) {
+    .mobile-zhuan-row{
+        display: flex;
+    }
+}
+
+
