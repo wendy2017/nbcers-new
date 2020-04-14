@@ -17,6 +17,9 @@
 .footer-name{
     margin-left: 20px;
 }
+.footer-name:hover{
+    color: #333;
+}
 @media screen and (max-width: 800px){
     .footer{
         padding: 0 ;
