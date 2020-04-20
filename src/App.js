@@ -33,6 +33,10 @@ const LIST = [
         url: '/products/dian',
       },
       {
+        text: '医疗器材',
+        url: '/products/yiliao',
+      },
+      {
         text: '其他产品',
         url: '/products/other',
       },
@@ -86,6 +90,7 @@ class App extends Component {
           <Route exact path="/products/qi" component={Product} />
           <Route exact path="/products/cha" component={Product} />
           <Route exact path="/products/dian" component={Product} />
+          <Route exact path="/products/yiliao" component={Product} />
           <Route exact path="/products/other" component={Product} />
           <Route exact path="/devices/jia" component={Device} />
           <Route exact path="/devices/zhuan" component={Device} />

@@ -19,6 +19,7 @@ class Product extends Component {
           {pathName === '/products/cha' && <span className="-color-light">差速器产品</span>}
           {pathName === '/products/qi' && <span className="-color-light">汽配产品</span>}
           {pathName === '/products/dian' && <span className="-color-light">电机产品</span>}
+          {pathName === '/products/yiliao' && <span className="-color-light">医疗器材</span>}
           {pathName === '/products/other' && <span className="-color-light">其他产品</span>}
         </h3>
         {pathName === '/products/cha' && (
@@ -234,6 +235,28 @@ class Product extends Component {
               <div className="box">
                 <span className="bg bg-dijike" />
                 <p>电机外壳</p>
+              </div>
+            </div>
+          </div>
+        )}
+         {pathName === '/products/yiliao' && (
+          <div className="yiliao">
+            <div className="cha-col">
+              <div className="box">
+                <span className="bg bg-guang" />
+                <p>医疗光学化验设备部件</p>
+              </div>
+            </div>
+            <div className="cha-col">
+              <div className="box">
+                <span className="bg bg-dk2238" />
+                <p>医疗器材-AA238</p>
+              </div>
+            </div>
+            <div className="cha-col">
+              <div className="box">
+                <span className="bg bg-dk1254" />
+                <p>医疗器材-DK1254</p>
               </div>
             </div>
           </div>

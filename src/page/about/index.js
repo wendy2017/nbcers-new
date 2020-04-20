@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './index.css';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./index.css";
 class About extends Component {
   componentDidMount() {}
   render() {
-    let pathName = window.location.hash.split('#')[1];
+    let pathName = window.location.hash.split("#")[1];
 
     return (
       <div className="about">
         <h3>
-          <Link className="-color-black" to={'/home'}>
+          <Link className="-color-black" to={"/home"}>
             首页
           </Link>
           <span className="-color-light">&nbsp;/&nbsp;</span>
           <span className="-color-light">关于我们</span>
         </h3>
         <div className="con">
-          <div className="left">
+          {/* <div className="left">
             <div className="bg-about" />
-          </div>
-          <div className="right">
+          </div> */}
+          <div className="right about-text-con">
             <p>
               宁波赛尔斯金属制品有限公司，创建至今已有20多年历史，是一家集研发、生产和销售为一体的专业铝压铸加工配套企业。
             </p>
@@ -37,6 +37,14 @@ class About extends Component {
             <p>
               公司愿景：以强大的技术实力为依托，以先进的经营理念为驱动，推动中国实体制造业的发展。
             </p>
+          </div>
+          <div className="about-img-con">
+            <div className="adward-con">
+              <span className="about-img-item adward-mj"></span>
+              <span className="about-img-item adward-zj"></span>
+            </div>
+
+            <span className="about-img-item about-auth"></span>
           </div>
         </div>
       </div>

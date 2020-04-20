@@ -19,13 +19,46 @@
     background-position: 50%;
     background-repeat: no-repeat;
 }
+.con{
+    display: flex;
+}
 .about .right {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .right p {
     text-align: left;
     line-height: 2;
 }
+.about-text-con{
+    width: 60%;
+}
+.about-img-con{
+    margin-left: 24px;
+    width: 40%;
+}
+.adward-con{
+    display: flex;
+    height: 240px;
+    margin-bottom: 12px;
+}
+.about-img-item{
+    display: inline-block;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.adward-mj{
+    background-image: url('http://home.nbceres.com/adward-mj.jpg?imageMogr2/auto-orient');
+}
+.adward-zj{
+    background-image: url('http://home.nbceres.com/adward-zj.jpg?imageMogr2/auto-orient');
+}
+.about-auth{
+    height: 240px;
+    background-image: url('http://home.nbceres.com/auth.jpg');
+    background-position: center;
+}
+
 @media screen and (max-width: 800px){
     .about {
         padding: 20px;
@@ -62,5 +95,9 @@
         background-size: cover;
         background-position: 50%;
         background-repeat: no-repeat;
+    }
+    .about-img-con{
+        margin-top: 24px;
+        width: 100%;
     }
 }

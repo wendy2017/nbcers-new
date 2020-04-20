@@ -10,6 +10,9 @@ class Home extends Component {
   componentDidMount() {
     this.interval();
   }
+  componentWillUnmount(){
+    this.myInter && clearInterval(this.myInter);
+  }
   interval() {
     let temp = this.state.currentIndex;
 
@@ -200,7 +203,7 @@ class Home extends Component {
             <div className="text">产品精选</div>
           </div>
           <div className="res-row">
-            <div className="-col" span="8">
+            <div className="-col" span="6">
               <div className="box">
                 <a href="#/products/qi">
                   <span className="bg-product-qi bg-product" />
@@ -208,7 +211,7 @@ class Home extends Component {
                 </a>
               </div>
             </div>
-            <div className="-col" span="8">
+            <div className="-col" span="6">
               <div className="box">
                 <a href="#/products/cha">
                   <span className="bg-product-cha bg-product" />
@@ -216,11 +219,19 @@ class Home extends Component {
                 </a>
               </div>
             </div>
-            <div className="-col" span="8">
+            <div className="-col" span="6">
               <div className="box">
                 <a href="#/products/dian">
                   <span className="bg-product-dian bg-product" />
                   <p>电机产品</p>
+                </a>
+              </div>
+            </div>
+            <div className="-col" span="6">
+              <div className="box">
+                <a href="#/products/yiliao">
+                  <span className="bg-product-yl bg-product" />
+                  <p>医疗器材</p>
                 </a>
               </div>
             </div>
@@ -257,6 +268,42 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className="mtb50 device">
+          <div className="header">
+            <div className="text">关于我们</div>
+          </div>
+          <div className="res-row">
+            <div className="-col">
+              <div className="box">
+              <a href="#/about">
+                  <span className="bg-adward-mj bg-device" />
+                  <p>第十二届中国国际压铸会议暨展览会</p>
+                  <p>优质模具</p>
+                </a>
+              </div>
+            </div>
+            <div className="-col">
+              <div className="box">
+                <a href="#/about">
+                  <span className="bg-adward-zj bg-device" />
+                  <p>第十二届中国国际压铸会议暨展览会</p>
+                  <p>优质铸件</p>
+                </a>
+              </div>
+            </div>
+            <div className="-col">
+              <div className="box">
+              <a href="#/about">
+                  <span className="bg-auth bg-device" />
+                  <p>IATF 16949认证</p>
+                  <p className="unvisible">IATF 16949认证</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        
         <div className="mtb50 client">
           <div className="header">
             <div className="text">我们的客户</div>

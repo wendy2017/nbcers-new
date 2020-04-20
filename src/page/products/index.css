@@ -1,4 +1,4 @@
-.cha, .dian, .other, .qi {
+.cha, .dian,.yiliao, .other, .qi {
     margin-top: 10px;
     text-align: left;
 }
@@ -226,6 +226,17 @@
 .cha-col .bg-gxyqzj{
     background-image: url('http://productother.nbceres.com/guangxueyizhizuo.jpg');
 }
+
+.cha-col .bg-dk2238 {
+    background-image: url('http://productdian.nbceres.com/yl-aa238.jpg');
+}
+.cha-col .bg-dk1254 {
+    background-image: url('http://productdian.nbceres.com/yl-dk1254.jpg');
+}
+.cha-col .bg-guang {
+    background-image: url('http://productdian.nbceres.com/bg-yl.jpg');
+}
+
 
 @media screen and (max-width: 800px){
     .cha-col {

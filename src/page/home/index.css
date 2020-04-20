@@ -56,7 +56,8 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
-    width: 33.3%;
+    /* width: 33.3%; */
+    width: 25%;
     height: 100%;
 }
 .product .-col .box {
@@ -86,14 +87,19 @@
 .product .bg-product-qi {
     /* background-image: url('http://ptnpv4u1a.bkt.clouddn.com/f-logo.jpg'); */
     background-image: url('../../img/home/f-logo.jpg');
+   
 }
 .product .bg-product-cha {
     /* background-image: url('http://ptnpv4u1a.bkt.clouddn.com/c-logo.jpg'); */
     background-image: url('../../img/home/c-logo.jpg');
+
 }
 .product .bg-product-dian{
     /* background-image: url('http://ptnpv4u1a.bkt.clouddn.com/d-logo.jpg'); */
     background-image: url('../../img/home/d-logo.jpg');
+}
+.product .bg-product-yl{
+    background-image: url('http://productdian.nbceres.com/bg-yl.jpg');
 }
 .product .-col .box p {
     text-align: center;
@@ -167,6 +173,19 @@
     /* background-image: url('http://ptnqmeol1.bkt.clouddn.com/yazhouji.jpg'); */
     background-image: url('../../img/home/yazhouji.jpg');
 }
+.device .bg-adward-mj{
+    background-image: url('http://home.nbceres.com/adward-mj.jpg?imageMogr2/auto-orient');
+}
+.device .bg-adward-zj{
+    background-image: url('http://home.nbceres.com/adward-zj.jpg?imageMogr2/auto-orient');
+}
+.device .bg-auth{
+    background-image: url('http://home.nbceres.com/auth.jpg');
+}
+.unvisible{
+    visibility: hidden;
+}
+
 .client{
     /* background: #fff; */
     width: 1200px;
